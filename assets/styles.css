@@ -1,0 +1,67 @@
+	body,
+	html{
+			height: 100%;
+			margin: auto;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			text-decoration: none;
+		}
+
+		.content{
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  height: auto;
+		  width: auto;
+		  margin: auto;
+		  line-height: 0.7; 
+		  perspective: 500px;	
+		}
+
+		.spin {
+			width: auto;
+			height: auto;
+			transform: rotateY(360deg);
+			animation: rotateAnimation 4.5s linear infinite;
+		}
+
+		@keyframes rotateAnimation {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}
+
+		img {
+		max-width: 100%;
+		}
+		
+		.links {
+			  display: table-cell;
+			  width: auto;
+			  height: auto;
+			  margin-left: auto;
+			  margin-right: auto;
+			  font-size: 35px;
+			  color: white;
+			  padding: 5px;
+			  cursor: pointer;
+			  transition: transform .2s;
+		}
+		
+		.links:hover {
+		  transform: scale(1.23);
+		  transform: translateY(4px);
+		}
+		
+		.socials {
+			  display: flex;
+			  width: 20px;
+			  height: auto;
+			  margin-left: auto;
+			  margin-right: auto;
+			  line-height: 10px;
+			  justify-content: center;
+			  
+			}
