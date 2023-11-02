@@ -4,7 +4,6 @@
 			margin: auto;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
-			-o-background-size: cover;
 			background-size: cover;
 			text-decoration: none;
 		}
@@ -19,6 +18,8 @@
 		  margin: auto;
 		  line-height: 0.7; 
 		  perspective: 500px;	
+		  -moz-perspective: 500px;	
+		  -webkit-perspective: 500px;				  
 		}
 
 		.spin {
@@ -26,12 +27,26 @@
 			height: auto;
 			transform: rotateY(360deg);
 			animation: rotateAnimation 4.5s linear infinite;
+			-moz-transform: rotateY(360deg);
+			-moz-animation: rotateAnimation 4.5s linear infinite;
+			-webkit-transform: rotateY(360deg);
+			-webkit-animation: rotateAnimation 4.5s linear infinite;			
 		}
 
 		@keyframes rotateAnimation {
 			from {transform: rotateY(360deg);}
 			to {transform: rotateY(0deg);}
 		}
+		
+		@-moz-keyframes rotateAnimation {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}
+
+		@-webkit-keyframes rotateAnimation {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}		
 
 		img {
 		max-width: 100%;
