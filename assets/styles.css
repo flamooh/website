@@ -28,6 +28,9 @@
 			height: auto;
 			transform: rotateY(360deg);
 			animation: rotateAnimation 4.5s linear infinite;
+			animation-delay: 0.65s;
+			-moz-animation-delay: 0.65s;
+			-webkit-animation-delay: 0.65s;			
 			-moz-transform: rotateY(360deg);
 			-moz-animation: rotateAnimation 4.5s linear infinite;
 			-webkit-transform: rotateY(360deg);
@@ -83,9 +86,9 @@
 		}
 
 		.flamoh {
-		animation: fadeIn 1.5s; 
-		-moz-animation: fadeIn 1.5s; 
-		-webkitanimation: fadeIn 1.5s; 
+		animation: fadeIn 0.5s; 
+		-moz-animation: fadeIn 0.5s; 
+		-webkitanimation: fadeIn 0.5s; 
 		}
 			
 		@keyframes fadeIn {
