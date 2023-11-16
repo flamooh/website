@@ -6,6 +6,7 @@
 			-moz-background-size: cover;
 			background-size: cover;
 			text-decoration: none;
+			
 		}
 
 		.content{
@@ -79,4 +80,13 @@
 			  line-height: 10px;
 			  justify-content: center;
 			  
-			}
+		}
+
+		.flamoh {
+		animation: fadeIn 1.5s; 
+		}
+			
+		@keyframes fadeIn {
+		  0% { opacity: 0; }
+		  100% { opacity: 1; }
+		}
