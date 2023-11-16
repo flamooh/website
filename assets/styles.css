@@ -83,9 +83,9 @@
 		}
 
 		.flamoh {
-		animation: fadeIn 0.5s; 
-		-moz-animation: fadeIn 0.5s; 
-		-webkitanimation: fadeIn 0.5s; 
+		animation: fadeIn 0.75s; 
+		-moz-animation: fadeIn 0.75s; 
+		-webkitanimation: fadeIn 0.75s; 
 		}
 			
 		@keyframes fadeIn {
