@@ -53,20 +53,20 @@
 		}		
 
 		img {
-		max-width: 100%;
+			max-width: 100%;
 		}
 		
 		.links {
-			  display: table-cell;
-			  width: auto;
-			  height: auto;
-			  margin-left: auto;
-			  margin-right: auto;
-			  font-size: 35px;
-			  color: white;
-			  padding: 5px;
-			  cursor: pointer;
-			  transition: transform .2s;
+			display: table-cell;
+			width: auto;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 35px;
+			color: white;
+			padding: 5px;
+			cursor: pointer;
+			transition: transform .2s;
 		}
 		
 		.links:hover {
@@ -105,3 +105,4 @@
 		  0% { opacity: 0; }
 		  100% { opacity: 1; }
 		}
+	}

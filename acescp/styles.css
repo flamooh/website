@@ -21,6 +21,10 @@
 		background-size: cover;
 	}
 	
+	.yo {
+		perspective: 12in;
+	}
+	
 	h1 {
 		font-size: 23px;
 		filter: drop-shadow(0 0 0.75rem yellow);
@@ -38,7 +42,7 @@
 		-moz-transform: rotateY(360deg);
 		-moz-animation: spinnySpinSpin 2.8s linear infinite;
 		-webkit-transform: rotateY(360deg);
-		-webkit-animation: spinnySpinSpin 2.8s linear infinite;			
+		-webkit-animation: spinnySpinSpin 2.8s linear infinite;
 	}
 
 	@keyframes spinnySpinSpin {
