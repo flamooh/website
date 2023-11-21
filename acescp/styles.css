@@ -1,0 +1,68 @@
+		html {
+			height: 100%;
+		}		
+		
+		body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;                     /* ! */
+    height: auto;                         /* ! */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+		
+		body {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-moz-transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background-image: url("paper.png");
+		font-family: Balsamiq Sans;
+		line-height: 1.35;
+	}
+		.yo {
+		text-align: center;
+		perspective: 3000px;
+		perspective-origin: center;
+		max-width: 100%;
+	}
+	
+		h1 {
+		font-size: 30px;
+		filter: drop-shadow(0 0 0.75rem yellow);
+		margin: 0;
+	}
+	
+		p {
+		font-size: 24px;
+	}	
+	
+		.spin {
+			width: auto;
+			height: auto;
+			transform: rotateY(360deg);
+			animation: spinnySpinSpin 2.8s linear infinite;	
+			-moz-transform: rotateY(360deg);
+			-moz-animation: spinnySpinSpin 2.8s linear infinite;
+			-webkit-transform: rotateY(360deg);
+			-webkit-animation: spinnySpinSpin 2.8s linear infinite;			
+		}
+
+		@keyframes spinnySpinSpin {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}
+		
+		@-moz-keyframes spinnySpinSpin {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}
+
+		@-webkit-keyframes spinnySpinSpin {
+			from {transform: rotateY(360deg);}
+			to {transform: rotateY(0deg);}
+		}		
