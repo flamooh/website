@@ -1,47 +1,28 @@
-	html {
-			height: 100%;
-			margin: auto;
-	}		
-	
-	body {
-		margin: 0;
-		width: auto;
-		min-height: 100%;
-		height: auto;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-		background-image: url("paper.png");
-		font-family: Balsamiq Sans;
-		line-height: 1.35;
-		overflow: auto;
-	}
-	
+	body,
+	html{
+			background-image: url("paper.png");
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			text-decoration: none;
+			font-family: Balsamiq Sans;
+			
+		}	
+
 	img {
-		max-width: 100%;
-		margin-top: 5;
-	}
-	
-	.desc {
-		text-align: center;
-		perspective: 3000px;
-		perspective-origin: center;
 		max-width: 100%;
 	}
 	
 	.container {
+		align-items: center;
 		justify-content: center;
-		display: grid;
+		display: flex;
+		line-height: 1.2; 
+		background-size: cover;
 	}
 	
 	h1 {
-		font-size: 32px;
+		font-size: 23px;
 		filter: drop-shadow(0 0 0.75rem yellow);
 	}
 	
